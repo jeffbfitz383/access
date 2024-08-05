@@ -10,3 +10,10 @@ const h2 = document.createElement("h2");
 h2.textContent = numTwoStr;
 document.querySelector("body").appendChild(h2);
 console.log(numTwo);
+
+fetch("http://localhost:3000/events")
+.then(r => r.json())
+.then(json => {
+    movieData = json;
+    console.log(movieData);
+})
