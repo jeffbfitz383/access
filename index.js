@@ -1,27 +1,32 @@
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("http://localhost:3000/events")
+    .then(r => r.json())
+    .then(json => {
+        eventData = json;
+        console.log(eventData);
 
-const { JSDOM } = require("jsdom");
-const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
-const document = dom.window.document;
+        eventData.forEach(event => {
+            showCards(event);
+        });
+    });
 
-const numOne = 1;
-const numTwo = 2;
-const numTwoStr = numTwo.toString();
-const h2 = document.createElement("h2");
-h2.textContent = numTwoStr;
-document.querySelector("body").appendChild(h2);
-console.log(numTwo);
+    function showCards(event) {
+        console.log(event);
 
-fetch("http://localhost:3000/events")
-.then(r => r.json())
-.then(json => {
-    eventData = json;
-    console.log(eventData);
+        let eventList = document.querySelector("#event-list");
+        if (eventList) {
+            let eventTitle = document.createElement("h1");
+            eventTitle.textContent = event.title;
+            eventList.appendChild(eventTitle);
+        } else {
+            console.error("#event-list element not found");
+        }
 
-    eventData.forEach(event =>{
-        showCards(event);
-    })
-})
-
-function showCards(event) {
-    console.log(event);
-}
+        let detailTitle = document.querySelector("#detail-title");
+        if (detailTitle) {
+            detailTitle.textContent = event.title;
+        } else {
+            console.error("#detail-title element not found");
+        }
+    }
+});
