@@ -14,6 +14,14 @@ console.log(numTwo);
 fetch("http://localhost:3000/events")
 .then(r => r.json())
 .then(json => {
-    movieData = json;
-    console.log(movieData);
+    eventData = json;
+    console.log(eventData);
+
+    eventData.forEach(event =>{
+        showCards(event);
+    })
 })
+
+function showCards(event) {
+    console.log(event);
+}
