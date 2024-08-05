@@ -3,7 +3,12 @@
         {
             "id": 1,
             "title": "coder meetup"
-         
+
+        },
+        {
+            "id": 2,
+            "title": "second meetup"
         }
+   
     ]
 }
