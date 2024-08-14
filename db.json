@@ -2,12 +2,14 @@
     "events" : [
         {
             "id": 1,
-            "title": "Creative Coding Demo Day No. 7.5"
+            "title": "Creative Coding Demo Day No. 7.5",
+            "date":"a date"
 
         },
         {
             "id": 2,
-            "title": "Denver OWASP July Meetup"
+            "title": "Denver OWASP July Meetup",
+            "date":"another date"
         }
    
     ]
