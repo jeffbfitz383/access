@@ -1,3 +1,15 @@
 h1 {
     color: red;
 }
+
+#event-info {
+    background-color:blue;
+    margin:30px;
+    padding:100px;
+}
+
+#event-list {
+ background-color:green;
+}
+
+#event-title{background-color:yellow}
