@@ -14,10 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(event);
 
         let eventList = document.querySelector("#event-list");
+    
         if (eventList) {
             let eventTitle = document.createElement("h1");
+            let eventDate = document.createElement("h1");
             eventTitle.textContent = event.title;
+            eventDate.textContent = event.date;
             eventList.appendChild(eventTitle);
+            eventList.appendChild(eventDate);
         } else {
             console.error("#event-list element not found");
         }
