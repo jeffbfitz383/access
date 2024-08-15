@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let eventList = document.querySelector("#event-list");
         let eTitle = document.querySelector("#event-title");
+        let eDate = document.querySelector("#event-date");
     
         if (eventList) {
             let eventTitle = document.createElement("h1");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             //eventList.appendChild(eventTitle);
             eventList.appendChild(eventDate);
             eTitle.appendChild(title);
+            eTitle.appendChild(eventDate)
         } else {
             console.error("#event-list element not found");
         }
