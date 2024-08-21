@@ -57,3 +57,20 @@ https://www.meetup.com/awsmeetupgroup/?mkt_tok=MDcyLVVXWS0yMDkAAAGU5kqk1h7KDc4ru
 https://www.meetup.com/boulder-ux-happy-hours/?mkt_tok=MDcyLVVXWS0yMDkAAAGU5kqk1YlgnK67JBy7Wp6waIRAGCnG7HQ-8mCZJ3_O1KxYdsbjOB7KcXJm2UbJocOgVD8EZXwbSbKbNk5tb8Jc3iZSXUPKyODdwo997cswp70jmw  aug 16th
 
 https://www.meetup.com/devops-boulder/?mkt_tok=MDcyLVVXWS0yMDkAAAGU5kqk1jw12t6ql6mxRTkPESQsfCww9HKG53gmlWkbsIEjnHax1UMrFTarD5iE-q-aCcvK93TYZLcUk3K7P2AY6bGGUEX5gLVeN3deDv0Ge_aDlg aug 19th
+
+
+
+Shari Ehrlich 3:28 PM
+https://www.meetup.com/develop-denver/
+
+Shari Ehrlich  to  Everyone 3:42 PM
+AWS Courses with Stephane Maarek on Udemy
+https://www.udemy.com/course/aws-certified-cloud-practitioner-new/  individual course - first level
+https://www.udemy.com/user/stephane-maarek/    compilation of his courses
+https://www.udemy.com/courses/search/?src=ukw&q=Stephane+Maarek    compilation of his courses
+Teaches to the exam
+Foundational AWS, where a lot of people start and then go on to the Associate Solutions Architect
+https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions
+
+Shari Ehrlich 3:58 PM
+https://calendly.com/shari-ehrlich/check-in
