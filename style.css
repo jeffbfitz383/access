@@ -10,6 +10,17 @@ h1 {
 
 #event-list {
  background-color:green;
+ margin:20px;
+ padding:20px;
 }
 
-#event-title{background-color:yellow}
+#event-title{
+    background-color:yellow
+    margin 2px;
+}
+
+#event-card{
+    background-color:yellow
+}
+    
+    
