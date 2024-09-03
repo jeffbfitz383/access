@@ -27,10 +27,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
         eTitle.tabIndex = 0;
         eDate.tabIndex = 0;
+
+
+        eTitle.addEventListener('focus', () => speakText(eTitle.textContent));
+        eDate.addEventListener('focus', () => speakText(eDate.textContent));
         
         eventCard.appendChild(eTitle);
         eventCard.appendChild(eDate);
         
         
     }
-});
+
+    function speakText(text) {
+        let utterance = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(utterance);
+    }
+
+    
+}); 
