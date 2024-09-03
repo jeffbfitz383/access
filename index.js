@@ -24,6 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         eTitle.textContent = event.title;
         eDate.textContent = event.date;
+
+        eTitle.tabIndex = 0;
+        eDate.tabIndex = 0;
         
         eventCard.appendChild(eTitle);
         eventCard.appendChild(eDate);
