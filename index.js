@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let eTitle = document.createElement("H1");
         let eDate = document.createElement("h1");
+
+        eTitle.id = `title-${event.id}`;
+        eDate.id = `date-${event.id}`;
+        
         eTitle.textContent = event.title;
         eDate.textContent = event.date;
         
